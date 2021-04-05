@@ -1,0 +1,9 @@
+.container {
+    margin: auto;
+    width:1000px;
+    background-color: #ccc;
+}
+
+.myPhoto {
+    width: 100px;
+}
