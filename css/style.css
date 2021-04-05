@@ -4,6 +4,22 @@
     background-color: #ccc;
 }
 
+.body {
+    background-color: white;
+}
+
+.body--dark {
+    background-color: #666;
+}
+
 .myPhoto {
     width: 100px;
+}
+
+.h1 {
+    color: crimson;
+}
+
+.h2 {
+    background-color: #888;
 }
