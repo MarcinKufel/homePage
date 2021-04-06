@@ -6,5 +6,13 @@ const changeBackground = document.querySelector(".js-changeBackground");
 
 changeBackground.addEventListener("click", () => {
     bodyBackground.classList.toggle("body--dark");
-    changeBackground.innerHTML = "Light mode / Dark mode";
+
+    if (changeBackground.innerText === "Dark mode") 
+    {
+        changeBackground.innerText = "Light mode";
+    } 
+    else  
+    {
+        changeBackground.innerText = "Dark mode";
+    }
 });
