@@ -1,25 +1,81 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
 .container {
     margin: auto;
-    width:1000px;
-    background-color: #ccc;
+    max-width:1000px;
+    text-align: center;
 }
 
 .body {
-    background-color: white;
+    background-color: #ccc;
 }
 
 .body--dark {
-    background-color: #666;
+    background-color: #888;
+}
+
+.toggle__mode {
+    
+}
+
+.section {
+    background-color: #ddd;
+    margin: 20px 40px;
+    padding: 20px;
+    border-radius: 20%;
+    box-shadow: 3px 3px 6px #888;
+}
+
+.section-no-shadow {
+    box-shadow: none;
 }
 
 .myPhoto {
-    width: 100px;
+    width: 200px;
+    box-shadow: 3px 3px 6px #888;
+    border-radius: 50%;
 }
 
 .h1 {
-    color: crimson;
+    font-size: 35px;
+    text-align: center;
 }
 
 .h2 {
-    background-color: #888;
+    color: black;
+    background-color: #aaa;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.nav {
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-link:hover {
+    color: teal;
+}
+
+.nav-link:active {
+    color: red;
+}
+
+.list {
+
+}
+
+.list__item {
+    list-style: none;
+    
+
 }
