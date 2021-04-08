@@ -95,11 +95,16 @@ html {
 
 .table {
     border-collapse: collapse;
-    margin: 15px;
+    margin: 15px auto;
+    width: 90%;
 
 }
 
 .tableCell {
     border: 1px solid black;
     padding: 5px;
+}
+
+.tableHeader {
+    background-color: #aaa;
 }
