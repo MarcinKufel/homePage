@@ -76,6 +76,10 @@ html {
 
 .list__item {
     list-style: none;
+    padding: 5px;
+    box-shadow: 1px 1px 3px #888;
+    max-width: 110px;
+    margin: 5px auto;
 
 
 }
