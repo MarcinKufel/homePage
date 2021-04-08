@@ -118,3 +118,7 @@ html {
     background-color: #eee;
 
 }
+
+.table-mobile {
+    overflow-x: auto;
+}
