@@ -49,26 +49,37 @@ html {
 }
 
 .myPhoto {
-    width: 200px;
+    max-width: 200px;
     box-shadow: 3px 3px 6px #888;
     border-radius: 50%;
+}
+
+.js-myPhoto {
+    display: none;
 }
 
 .h1 {
     font-size: 35px;
     text-align: center;
+    margin: 0 auto 10px;
+    background-color: #aaa;
+    border-radius: 50%;
+    max-width: 60%;
 }
 
 .h2 {
-    color: black;
+    color: rgb(248, 247, 247);
     background-color: #aaa;
     border-radius: 50%;
     text-align: center;
+    margin: 0 0 10px 0;
+    padding: 5px;
 }
 
 .nav-link {
     text-decoration: none;
     color: black;
+
 }
 
 
@@ -96,7 +107,7 @@ html {
 .table {
     border-collapse: collapse;
     margin: 15px auto;
-    width: 90%;
+    max-width: 90%;
 
 }
 
@@ -109,7 +120,7 @@ html {
     background-color: #bbb;
 }
 
-.tableRow:nth-child(odd) {
+.tableRow:nth-child(even) {
     background-color: #ccc;
 
 }

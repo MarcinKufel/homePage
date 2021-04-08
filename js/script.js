@@ -16,3 +16,19 @@ changeBackground.addEventListener("click", () => {
         changeBackground.innerText = "Dark mode";
     }
 });
+
+const myPhoto = document.querySelector(".myPhoto");
+const hideImage = document.querySelector(".js-hideImage");
+
+hideImage.addEventListener("click", () => {
+    myPhoto.classList.toggle("js-myPhoto");
+
+    if (hideImage.innerText === "Hide image") 
+    {
+        hideImage.innerText = "Show image";
+    } 
+    else  
+    {
+        hideImage.innerText = "Hide image";
+    }
+});
