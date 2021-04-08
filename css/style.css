@@ -66,21 +66,11 @@ html {
     text-align: center;
 }
 
-.nav {
-}
-
 .nav-link {
     text-decoration: none;
     color: black;
 }
 
-.nav-link:hover {
-    color: teal;
-}
-
-.nav-link:active {
-    color: red;
-}
 
 .list {
     padding: 0;
@@ -90,9 +80,15 @@ html {
     list-style: none;
     padding: 5px;
     box-shadow: 1px 1px 3px #888;
-    max-width: 110px;
+    max-width: 125px;
     margin: 10px auto;
     border-radius: 50%;
+}
 
+.list__item:hover {
+    background-color: khaki;
+}
 
+.list__item:active {
+    background-color: red;
 }
