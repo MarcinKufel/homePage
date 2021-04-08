@@ -71,11 +71,11 @@ html {
 }
 
 .list {
-
+    padding: 0;
 }
 
 .list__item {
     list-style: none;
-    
+
 
 }
