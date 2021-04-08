@@ -92,3 +92,14 @@ html {
 .list__item:active {
     background-color: red;
 }
+
+.table {
+    border-collapse: collapse;
+    margin: 15px;
+
+}
+
+.tableCell {
+    border: 1px solid black;
+    padding: 5px;
+}
