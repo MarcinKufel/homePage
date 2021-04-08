@@ -86,7 +86,7 @@ html {
 }
 
 .list__item:hover {
-    background-color: khaki;
+    background-color: #eee;
 }
 
 .list__item:active {
@@ -106,5 +106,15 @@ html {
 }
 
 .tableHeader {
-    background-color: #aaa;
+    background-color: #bbb;
+}
+
+.tableRow:nth-child(odd) {
+    background-color: #ccc;
+
+}
+
+.tableRow:hover {
+    background-color: #eee;
+
 }
