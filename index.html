@@ -14,45 +14,51 @@
 </head>
 
 <body class="body js-body">
-    <main class="container">
+
+    <header>
+        <h1 class="h1">Resume</h1>
+    </header>
+    <nav class="nav">
         <section class="section">
-            <h1 class="h1">Resume</h1>
-            <h2 class="h2">Marcin Kufel<br>FrontEnd Developer</h2>
+
+            <h2 class="nav-h2">Marcin Kufel<br>FrontEnd Developer</h2>
             <button class="toggle__mode js-changeBackground">Dark mode</button>
             <section class="section section-no-shadow">
                 <img src="img/Me.png" class="myPhoto" alt="Marcin Kufel photo">
             </section>
             <button class="toggle__mode js-hideImage">Hide image</button>
-            <nav class="nav">
-                <ul class="list">
-                    <li class="list__item"><a class="nav-link" href="#about-me">About me</a></li>
-                    <li class="list__item"><a class="nav-link" href="#my-skills">My skills</a></li>
-                    <li class="list__item"><a class="nav-link" href="#languages">Languages</a></li>
-                    <li class="list__item"><a class="nav-link" href="#education">Education</a></li>
-                    <li class="list__item"><a class="nav-link" href="#courses">Courses</a></li>
-                    <li class="list__item"><a class="nav-link" href="#carrier history">Career history</a></li>
-                    <li class="list__item"><a class="nav-link" href="#contact">Contact</a></li>
-                    <li class="list__item"><a class="nav-link" href="#hobby">Hobby</a></li>
-                </ul>
-            </nav>
 
+            <ul class="list">
+                <li class="list__item"><a class="nav-link" href="#about-me">About me</a></li>
+                <li class="list__item"><a class="nav-link" href="#my-skills">My skills</a></li>
+                <li class="list__item"><a class="nav-link" href="#languages">Languages</a></li>
+                <li class="list__item"><a class="nav-link" href="#education">Education</a></li>
+                <li class="list__item"><a class="nav-link" href="#courses">Courses</a></li>
+                <li class="list__item"><a class="nav-link" href="#carrier-history">Career history</a></li>
+                <li class="list__item"><a class="nav-link" href="#contact">Contact</a></li>
+                <li class="list__item"><a class="nav-link" href="#hobby">Hobby</a></li>
+            </ul>
         </section>
+    </nav>
+
+    <main class="container">
+
 
         <section class="section">
-            <h2 class="h2" id="about-me">About me</h2>
+            <h2 class="section-h2" id="about-me">About me</h2>
             <p>
                 I like to build something from nothing. I usually try to make <strong>usefull</strong> things who will
                 help someone else.
             </p>
         </section>
         <section class="section">
-            <h2 class="h2" id="my-skills">My skills</h2>
+            <h2 class="section-h2" id="my-skills">My skills</h2>
             <p>
                 HTML, CSS, Basic JavaScript
             </p>
         </section>
         <section class="section">
-            <h2 class="h2" id="languages">Languages</h2>
+            <h2 class="section-h2" id="languages">Languages</h2>
             <p>
                 Polish: Native, English: B2;
             </p>
@@ -60,69 +66,72 @@
 
 
         <section class="section">
-            <h2 class="h2" id="education">Education</h2>
+            <h2 class="section-h2" id="education">Education</h2>
             <p>
                 University of Adam Mickiewicz
             </p>
         </section>
         <section class="section">
-            <h2 class="h2" id="courses">Courses</h2>
+            <h2 class="section-h2" id="courses">Courses</h2>
             <div class="table-mobile">
-            <table class="table">
-                <thead>
-                    <tr class="tableRow">
-                        <th class="tableCell tableHeader" scope="col">Course name</th>
-                        <th class="tableCell tableHeader" scope="col">Link</th>
-                        <th class="tableCell tableHeader" scope="col">Hours</th>
-                        <th class="tableCell tableHeader" scope="col">Main technology</th>
-                        <th class="tableCell tableHeader" scope="col">Rest technology</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr class="tableRow">
-                        <td class="tableCell">YouCode Frontend developer from basics</td>
-                        <td class="tableCell"><a href="https://youcode.pl" target="_blank">https://youcode.pl</a></td>
-                        <td class="tableCell">???????</td>
-                        <td class="tableCell">JavaScript</td>
-                        <td class="tableCell">HTML, CSS, React, Redux</td>
-                    </tr>
-                    <tr class="tableRow">
-                        <td class="tableCell">Software Development Academy</td>
-                        <td class="tableCell"><a href="https://sdacademy.pl/" target="_blank">https://sdacademy.pl/</a>
-                        </td>
-                        <td class="tableCell">112</td>
-                        <td class="tableCell">Manual testing</td>
-                        <td class="tableCell">Exploratory testing, Functional testing</td>
-                    </tr>
-                    <tr class="tableRow">
-                        <td class="tableCell">YouCode HTML & CSS from basics </td>
-                        <td class="tableCell"><a href="https://youcode.pl" target="_blank">https://youcode.pl</a></td>
-                        <td class="tableCell">???????</td>
-                        <td class="tableCell">CSS</td>
-                        <td class="tableCell">HTML, GIT, BEM</td>
-                    </tr>
-                    <tr class="tableRow">
-                        <td class="tableCell">Future course</td>
-                        <td class="tableCell"><a href="https://udemy.com/" target="_blank">https://udemy.com/</a>
-                        </td>
-                        <td class="tableCell">?????</td>
-                        <td class="tableCell">React</td>
-                        <td class="tableCell">JavaScript</td>
-                    </tr>
-                </tbody>
+                <table class="table">
+                    <thead>
+                        <tr class="tableRow">
+                            <th class="tableCell tableHeader" scope="col">Course name</th>
+                            <th class="tableCell tableHeader" scope="col">Link</th>
+                            <th class="tableCell tableHeader" scope="col">Hours</th>
+                            <th class="tableCell tableHeader" scope="col">Main technology</th>
+                            <th class="tableCell tableHeader" scope="col">Rest technology</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="tableRow">
+                            <td class="tableCell">YouCode Frontend developer from basics</td>
+                            <td class="tableCell"><a href="https://youcode.pl" target="_blank">https://youcode.pl</a>
+                            </td>
+                            <td class="tableCell">???????</td>
+                            <td class="tableCell">JavaScript</td>
+                            <td class="tableCell">HTML, CSS, React, Redux</td>
+                        </tr>
+                        <tr class="tableRow">
+                            <td class="tableCell">Software Development Academy</td>
+                            <td class="tableCell"><a href="https://sdacademy.pl/"
+                                    target="_blank">https://sdacademy.pl/</a>
+                            </td>
+                            <td class="tableCell">112</td>
+                            <td class="tableCell">Manual testing</td>
+                            <td class="tableCell">Exploratory testing, Functional testing</td>
+                        </tr>
+                        <tr class="tableRow">
+                            <td class="tableCell">YouCode HTML & CSS from basics </td>
+                            <td class="tableCell"><a href="https://youcode.pl" target="_blank">https://youcode.pl</a>
+                            </td>
+                            <td class="tableCell">???????</td>
+                            <td class="tableCell">CSS</td>
+                            <td class="tableCell">HTML, GIT, BEM</td>
+                        </tr>
+                        <tr class="tableRow">
+                            <td class="tableCell">Future course</td>
+                            <td class="tableCell"><a href="https://udemy.com/" target="_blank">https://udemy.com/</a>
+                            </td>
+                            <td class="tableCell">?????</td>
+                            <td class="tableCell">React</td>
+                            <td class="tableCell">JavaScript</td>
+                        </tr>
+                    </tbody>
 
 
-            </table>
-        </div>
+                </table>
+            </div>
         </section>
         <section class="section">
-            <h2 class="h2" id="carrier-history">Career history</h2>
+            <h2 class="section-h2" id="carrier-history">Career history</h2>
             <p>
                 Volontieer at Hakersi.pl
             </p>
         </section>
         <section class="section">
-            <h2 class="h2" id="contact">Contact</h2>
+            <h2 class="section-h2" id="contact">Contact</h2>
             <p>
                 Phone number:
                 Email adress:
@@ -131,7 +140,7 @@
             </p>
         </section>
         <section class="section">
-            <h2 class="h2" id="hobby">Hobby</h2>
+            <h2 class="section-h2" id="hobby">Hobby</h2>
             <p>
                 Board Games, YouCode :)
             </p>
@@ -140,6 +149,10 @@
 
 
     </main>
+
+    <footer>
+        Strona przygotowana przez Marcin Kufel. 2021 ©
+    </footer>
 
 
 </body>

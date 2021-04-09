@@ -6,19 +6,23 @@ html {
     box-sizing: inherit;
 }
 
-.container {
-    font-family: 'Lato', sans-serif;
-    margin: auto;
-    max-width:1000px;
-    text-align: center;
-}
-
 .body {
     background-color: #ccc;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
 }
 
 .body--dark {
     background-color: #888;
+}
+
+
+
+.container {
+    
+    margin: auto;
+    max-width:1000px;
+    
 }
 
 .toggle__mode {
@@ -64,21 +68,40 @@ html {
     margin: 0 auto 10px;
     background-color: #aaa;
     border-radius: 50%;
-    max-width: 60%;
+    text-shadow: 1px 1px 1px black;
+    color: black;
 }
 
-.h2 {
+.section-h2 {
     color: rgb(248, 247, 247);
     background-color: #aaa;
     border-radius: 50%;
     text-align: center;
     margin: 0 0 10px 0;
     padding: 5px;
+    text-shadow: 1px 1px 1px rgb(44, 44, 44);
+    
+}
+
+.nav {
+    margin: auto;
+    max-width:1000px;
 }
 
 .nav-link {
     text-decoration: none;
     color: black;
+}
+
+.nav-h2 {
+    color: rgb(248, 247, 247);
+    background-color: #aaa;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 auto 10px;
+    padding: 5px;
+    max-width: 80%;
+    text-shadow: 1px 1px 1px rgb(44, 44, 44);
 
 }
 
