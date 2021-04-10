@@ -1,0 +1,41 @@
+.nav {
+    margin: auto;
+    max-width:1000px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-h2 {
+    color: rgb(248, 247, 247);
+    background-color: #aaa;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 auto 10px;
+    padding: 5px;
+    max-width: 80%;
+    text-shadow: 1px 1px 1px rgb(44, 44, 44);
+}
+
+.list {
+    padding: 0;
+}
+
+.list__item {
+    list-style: none;
+    padding: 5px;
+    box-shadow: 1px 1px 3px #888;
+    max-width: 125px;
+    margin: 10px auto;
+    border-radius: 50%;
+}
+
+.list__item:hover {
+    background-color: #eee;
+}
+
+.list__item:active {
+    background-color: red;
+}

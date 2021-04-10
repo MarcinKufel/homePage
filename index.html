@@ -9,20 +9,27 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" />
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <link href="css/nav.css" rel="stylesheet">
+
+
     <script src="js/script.js" defer></script>
 </head>
 
 <body class="body js-body">
 
     <header>
-        <h1 class="h1">Resume</h1>
+        <h1 class="header__h1">Resume</h1>
     </header>
     <nav class="nav">
         <section class="section">
 
             <h2 class="nav-h2">Marcin Kufel<br>FrontEnd Developer</h2>
-            <button class="toggle__mode js-changeBackground">Dark mode</button>
+            <button class="button__toggleMode js-changeBackground">Dark mode</button>
             <section class="section section-no-shadow">
                 <img src="img/Me.png" class="myPhoto" alt="Marcin Kufel photo">
             </section>
@@ -45,20 +52,20 @@
 
 
         <section class="section">
-            <h2 class="section-h2" id="about-me">About me</h2>
+            <h2 class="section__header" id="about-me">About me</h2>
             <p>
                 I like to build something from nothing. I usually try to make <strong>usefull</strong> things who will
                 help someone else.
             </p>
         </section>
         <section class="section">
-            <h2 class="section-h2" id="my-skills">My skills</h2>
+            <h2 class="section__header" id="my-skills">My skills</h2>
             <p>
                 HTML, CSS, Basic JavaScript
             </p>
         </section>
         <section class="section">
-            <h2 class="section-h2" id="languages">Languages</h2>
+            <h2 class="section__header" id="languages">Languages</h2>
             <p>
                 Polish: Native, English: B2;
             </p>
@@ -66,13 +73,13 @@
 
 
         <section class="section">
-            <h2 class="section-h2" id="education">Education</h2>
+            <h2 class="section__header" id="education">Education</h2>
             <p>
                 University of Adam Mickiewicz
             </p>
         </section>
         <section class="section">
-            <h2 class="section-h2" id="courses">Courses</h2>
+            <h2 class="section__header" id="courses">Courses</h2>
             <div class="table-mobile">
                 <table class="table">
                     <thead>
@@ -125,13 +132,13 @@
             </div>
         </section>
         <section class="section">
-            <h2 class="section-h2" id="carrier-history">Career history</h2>
+            <h2 class="section__header" id="carrier-history">Career history</h2>
             <p>
                 Volontieer at Hakersi.pl
             </p>
         </section>
         <section class="section">
-            <h2 class="section-h2" id="contact">Contact</h2>
+            <h2 class="section__header" id="contact">Contact</h2>
             <p>
                 Phone number:
                 Email adress:
@@ -140,7 +147,7 @@
             </p>
         </section>
         <section class="section">
-            <h2 class="section-h2" id="hobby">Hobby</h2>
+            <h2 class="section__header" id="hobby">Hobby</h2>
             <p>
                 Board Games, YouCode :)
             </p>

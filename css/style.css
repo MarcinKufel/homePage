@@ -10,6 +10,7 @@ html {
     background-color: #ccc;
     font-family: 'Lato', sans-serif;
     text-align: center;
+    margin: 10px 0;
 }
 
 .body--dark {
@@ -25,31 +26,15 @@ html {
     
 }
 
-.toggle__mode {
+.button__toggleMode {
     background-color: #ddd;
     border: none;
     box-shadow: 3px 3px 6px #888;
 }
 
-.toggle__mode:hover {
+.button__toggleMode:hover {
     background-color: #aaa;
     color: white;
-}
-
-
-
-.section {
-    background-color: #ddd;
-    margin: 20px 40px;
-    padding: 20px;
-    border-radius: 20%;
-    box-shadow: 3px 3px 6px #888;
-}
-
-.section-no-shadow {
-    box-shadow: none;
-    margin: 0;
-    padding: 10px;
 }
 
 .myPhoto {
@@ -62,7 +47,7 @@ html {
     display: none;
 }
 
-.h1 {
+.header__h1 {
     font-size: 35px;
     text-align: center;
     margin: 0 auto 10px;
@@ -70,61 +55,6 @@ html {
     border-radius: 50%;
     text-shadow: 1px 1px 1px black;
     color: black;
-}
-
-.section-h2 {
-    color: rgb(248, 247, 247);
-    background-color: #aaa;
-    border-radius: 50%;
-    text-align: center;
-    margin: 0 0 10px 0;
-    padding: 5px;
-    text-shadow: 1px 1px 1px rgb(44, 44, 44);
-    
-}
-
-.nav {
-    margin: auto;
-    max-width:1000px;
-}
-
-.nav-link {
-    text-decoration: none;
-    color: black;
-}
-
-.nav-h2 {
-    color: rgb(248, 247, 247);
-    background-color: #aaa;
-    border-radius: 50%;
-    text-align: center;
-    margin: 0 auto 10px;
-    padding: 5px;
-    max-width: 80%;
-    text-shadow: 1px 1px 1px rgb(44, 44, 44);
-
-}
-
-
-.list {
-    padding: 0;
-}
-
-.list__item {
-    list-style: none;
-    padding: 5px;
-    box-shadow: 1px 1px 3px #888;
-    max-width: 125px;
-    margin: 10px auto;
-    border-radius: 50%;
-}
-
-.list__item:hover {
-    background-color: #eee;
-}
-
-.list__item:active {
-    background-color: red;
 }
 
 .table {
