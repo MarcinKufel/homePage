@@ -5,15 +5,15 @@ const bodyBackground = document.querySelector(".js-body");
 const changeBackground = document.querySelector(".js-changeBackground");
 
 changeBackground.addEventListener("click", () => {
-    bodyBackground.classList.toggle("body--dark");
+    bodyBackground.classList.toggle("body--bright");
 
-    if (changeBackground.innerText === "Dark mode") 
+    if (changeBackground.innerText === "Bright mode") 
     {
-        changeBackground.innerText = "Light mode";
+        changeBackground.innerText = "Dark mode";
     } 
     else  
     {
-        changeBackground.innerText = "Dark mode";
+        changeBackground.innerText = "Bright mode";
     }
 });
 

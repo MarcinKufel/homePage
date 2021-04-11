@@ -7,14 +7,14 @@ html {
 }
 
 .body {
-    background-color: #ccc;
+    background-color:  #888;
     font-family: 'Lato', sans-serif;
     text-align: center;
     margin: 10px 0;
 }
 
-.body--dark {
-    background-color: #888;
+.body--bright {
+    background-color: #eee ;
 }
 
 
