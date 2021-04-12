@@ -50,3 +50,13 @@
 .navigation__listItem:active {
     background-color: red;
 }
+
+.navigation__image {
+    max-width: 200px;
+    box-shadow: 3px 3px 6px #888;
+    border-radius: 50%;
+}
+
+.js-navigation__image {
+    display: none;
+}

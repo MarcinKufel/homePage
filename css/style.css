@@ -28,15 +28,7 @@ html {
 
 
 
-.myPhoto {
-    max-width: 200px;
-    box-shadow: 3px 3px 6px #888;
-    border-radius: 50%;
-}
 
-.js-myPhoto {
-    display: none;
-}
 
 .header__h1 {
     font-size: 35px;

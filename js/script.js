@@ -17,11 +17,11 @@ changeBackground.addEventListener("click", () => {
     }
 });
 
-const myPhoto = document.querySelector(".myPhoto");
+const myPhoto = document.querySelector(".navigation__image");
 const hideImage = document.querySelector(".js-hideImage");
 
 hideImage.addEventListener("click", () => {
-    myPhoto.classList.toggle("js-myPhoto");
+    myPhoto.classList.toggle("js-navigation__image");
 
     if (hideImage.innerText === "Hide image") 
     {
