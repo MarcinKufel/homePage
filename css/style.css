@@ -26,16 +26,7 @@ html {
     
 }
 
-.button__toggleMode {
-    background-color: #ddd;
-    border: none;
-    box-shadow: 3px 3px 6px #888;
-}
 
-.button__toggleMode:hover {
-    background-color: #aaa;
-    color: white;
-}
 
 .myPhoto {
     max-width: 200px;

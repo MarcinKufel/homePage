@@ -19,11 +19,22 @@
     text-shadow: 1px 1px 1px rgb(44, 44, 44);
 }
 
+.navigation__button {
+    background-color: #ddd;
+    border: none;
+    box-shadow: 3px 3px 6px #888;
+}
+
+.navigation__button:hover {
+    background-color: #aaa;
+    color: white;
+}
+
 .navigation__list {
     padding: 0;
 }
 
-.list__item {
+.navigation__listItem {
     list-style: none;
     padding: 5px;
     box-shadow: 1px 1px 3px #888;
@@ -32,10 +43,10 @@
     border-radius: 50%;
 }
 
-.list__item:hover {
+.navigation__listItem:hover {
     background-color: #eee;
 }
 
-.list__item:active {
+.navigation__listItem:active {
     background-color: red;
 }
