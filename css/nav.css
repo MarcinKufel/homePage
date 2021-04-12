@@ -1,14 +1,14 @@
-.nav {
+.navigation {
     margin: auto;
     max-width:1000px;
 }
 
-.nav__link {
+.navigation__link {
     text-decoration: none;
     color: black;
 }
 
-.nav__header {
+.navigation__header {
     color: rgb(248, 247, 247);
     background-color: #aaa;
     border-radius: 50%;
@@ -19,7 +19,7 @@
     text-shadow: 1px 1px 1px rgb(44, 44, 44);
 }
 
-.list {
+.navigation__list {
     padding: 0;
 }
 
