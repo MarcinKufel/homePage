@@ -1,1 +1,3 @@
-# Home page about me
+# My resume
+
+https://marcinkufel.github.io/homePage/
