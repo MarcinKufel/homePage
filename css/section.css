@@ -6,7 +6,7 @@
     box-shadow: 3px 3px 6px #888;
 }
 
-.section-no-shadow {
+.section--noShadow {
     box-shadow: none;
     margin: 0;
     padding: 10px;
