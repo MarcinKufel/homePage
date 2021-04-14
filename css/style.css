@@ -26,10 +26,12 @@ html {
     
 }
 
+.header {
+    margin: 20px 30px;
+}
 .header__h1 {
     font-size: 35px;
     text-align: center;
-    margin: 0 auto 10px;
     background-color: #aaa;
     border-radius: 50%;
     text-shadow: 1px 1px 1px black;
