@@ -1,6 +1,7 @@
 .section {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     background-color: #ccc;
     margin: 20px 40px;
     padding: 20px;
