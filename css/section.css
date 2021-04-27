@@ -1,4 +1,6 @@
 .section {
+    display: flex;
+    flex-wrap: wrap;
     background-color: #ccc;
     margin: 20px 40px;
     padding: 20px;
@@ -13,6 +15,7 @@
 }
 
 .section__header {
+    width: 100%;
     color: rgb(248, 247, 247);
     background-color: #aaa;
     border-radius: 50%;
