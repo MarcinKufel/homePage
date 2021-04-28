@@ -13,10 +13,9 @@
     background-color: #aaa;
     border-radius: 30%;
     text-align: center;
-    margin: 0 auto 10px;
     padding: 9px;
     width: 100%;
-    max-width: 80%;
+    max-width: 90%;
     text-shadow: 1px 1px 1px rgb(44, 44, 44);
 }
 
@@ -24,6 +23,8 @@
     background-color: #ddd;
     border: none;
     box-shadow: 3px 3px 6px #888;
+    height: 30px;
+    
 }
 
 .navigation__button:hover {
@@ -33,13 +34,16 @@
 
 .navigation__list {
     padding: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .navigation__listItem {
+    display: flex;
+    align-self: center;
     list-style: none;
-    padding: 5px;
-    box-shadow: 1px 1px 3px #888;
-    max-width: 125px;
+    padding: 10px;
+    box-shadow: 3px 3px 6px #888;
     margin: 10px auto;
     border-radius: 50%;
 }
@@ -56,6 +60,8 @@
     max-width: 200px;
     box-shadow: 3px 3px 6px #888;
     border-radius: 50%;
+    height: 60%;
+    align-self: center;
 }
 
 .js-navigation__image {

@@ -26,3 +26,13 @@
     text-shadow: 1px 1px 1px rgb(44, 44, 44);
     
 }
+
+.section__nav {
+    display: flex;
+    justify-content: space-around;
+    box-shadow: none;
+    flex-basis: 100%;
+    padding: 0;
+    margin: 0;
+   
+}
