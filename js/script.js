@@ -1,10 +1,9 @@
 
+const welcome = () => {
 console.log("Prototype of my resume")
+}
 
-const bodyBackground = document.querySelector(".js-body");
-const changeBackground = document.querySelector(".js-changeBackground");
-
-changeBackground.addEventListener("click", () => {
+const onChangeBackgroundClick = () => {
     bodyBackground.classList.toggle("body--bright");
 
     if (changeBackground.innerText === "Bright mode") 
@@ -15,12 +14,9 @@ changeBackground.addEventListener("click", () => {
     {
         changeBackground.innerText = "Bright mode";
     }
-});
+}
 
-const myPhoto = document.querySelector(".navigation__image");
-const hideImage = document.querySelector(".js-hideImage");
-
-hideImage.addEventListener("click", () => {
+const hideImageFunction = () => {
     myPhoto.classList.toggle("js-navigation__image");
 
     if (hideImage.innerText === "Hide image") 
@@ -31,4 +27,18 @@ hideImage.addEventListener("click", () => {
     {
         hideImage.innerText = "Hide image";
     }
-});
+}
+
+
+welcome();
+
+const bodyBackground = document.querySelector(".js-body");
+const changeBackground = document.querySelector(".js-changeBackground");
+
+changeBackground.addEventListener("click", onChangeBackgroundClick);
+
+
+const myPhoto = document.querySelector(".navigation__image");
+const hideImage = document.querySelector(".js-hideImage");
+
+hideImage.addEventListener("click", hideImageFunction);
