@@ -1,0 +1,24 @@
+{
+  "name": "myresume",
+  "version": "1.0.0",
+  "description": "Link to demo myResume https://marcinkufel.github.io/myResume/",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^7.4.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcinKufel/myResume.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarcinKufel/myResume/issues"
+  },
+  "homepage": "https://github.com/MarcinKufel/myResume#readme"
+}
