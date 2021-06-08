@@ -4,6 +4,7 @@ describe ('My first test', () => {
         cy.visit(resumeSite);
         cy.viewport(1024, 768);
         cy.get('.js-changeBackground').should('be.visible').click();
+        cy.contains('Interests');
     })
 })
 
